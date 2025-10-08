@@ -1,4 +1,4 @@
-# Liaa--the-shopping-website
+# Liaa-shopping-website
 A sophisticated full-stack e-commerce solution built with modern web technologies, featuring a complete shopping experience with dynamic product management and seamless user interactions.
 
 🚀 Live Demo - https://liaa-the-shopping-website.vercel.app/
@@ -16,7 +16,7 @@ Product Details Modal - Comprehensive product information with size options
 
 Responsive Design - Flawless experience across all devices
 ______________________________________________________________________________________________________________________________________________________________________________________________________________________________
-💻 Technical Information
+##💻 Technical Information
 
 
 Full-Stack Architecture - Frontend + Backend + Database
@@ -29,10 +29,10 @@ Modern JavaScript - ES6+ with async/await
 
 Professional UI/UX - Clean, modern interface
 ______________________________________________________________________________________________________________________________________________________________________________________________________________________________
-🛠️ Technology Stack
+##🛠️ Technology Stack
 
 
-Frontend
+###Frontend
 
 HTML5 - Semantic markup structure
 
@@ -42,7 +42,7 @@ JavaScript ES6+ - Dynamic functionality and API integration
 
 
 
-Backend
+###Backend
 
 PHP - Server-side logic and database operations
 
@@ -52,7 +52,7 @@ REST API - Clean data communication layer
 
 
 
-Development Tools
+###Development Tools
 
 XAMPP - Local development environment
 
@@ -61,7 +61,7 @@ Git - Version control
 phpMyAdmin - Database administration
 ______________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
-📁 Database Schema
+##📁 Database Schema
 
 
 CREATE TABLE products (
@@ -80,7 +80,7 @@ CREATE TABLE products (
     
 );
 ______________________________________________________________________________________________________________________________________________________________________________________________________________________________
-Prerequisites
+##Prerequisites
 
 XAMPP (Apache + MySQL)
 
@@ -88,7 +88,7 @@ Modern web browser
 
 Git (optional)
 _____________________________________________________________________________________________________________________________________________________________________________________________________________________________
-Installation Steps
+##Installation Steps
 
 
 Clone Repository
