@@ -3,7 +3,7 @@ A sophisticated full-stack e-commerce solution built with modern web technologie
 
 🚀 Live Demo - https://liaa-the-shopping-website.vercel.app/
  _____________________________________________________________________________________________________________________________________________________________________________________________________________________________
-# ✨ Key Features
+##✨ Key Features
  
 
 Dynamic Product Catalog - 28+ fashion items across Clothing, Shoes, and Accessories
