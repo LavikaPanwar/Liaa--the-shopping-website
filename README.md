@@ -4,7 +4,8 @@ A sophisticated full-stack e-commerce solution built with modern web technologie
 🚀 Live Demo - https://liaa-the-shopping-website.vercel.app/
  _____________________________________________________________________________________________________________________________________________________________________________________________________________________________
  ✨ Key Features
-🛒 Core Shopping Experience
+ 
+
 Dynamic Product Catalog - 28+ fashion items across Clothing, Shoes, and Accessories
 
 Smart Shopping Cart - Real-time cart management with persistent storage
@@ -16,6 +17,8 @@ Product Details Modal - Comprehensive product information with size options
 Responsive Design - Flawless experience across all devices
 ______________________________________________________________________________________________________________________________________________________________________________________________________________________________
 💻 Technical Information
+
+
 Full-Stack Architecture - Frontend + Backend + Database
 
 MySQL Integration - Robust data management
@@ -27,6 +30,8 @@ Modern JavaScript - ES6+ with async/await
 Professional UI/UX - Clean, modern interface
 ______________________________________________________________________________________________________________________________________________________________________________________________________________________________
 🛠️ Technology Stack
+
+
 Frontend
 
 HTML5 - Semantic markup structure
@@ -55,30 +60,24 @@ Git - Version control
 
 phpMyAdmin - Database administration
 ______________________________________________________________________________________________________________________________________________________________________________________________________________________________
-📁 Project Structure
-shopping-website/
-├── 📄 index.html
-├── 🎨 css/style.css
-├── ⚡ js/
-│   ├── products.js
-│   ├── cart.js
-│   └── main.js
-├── 🖼️ images/
-├── 🔧 backend/
-│   ├── config.php
-│   └── get_products.php
-└── 📖 README.md
-______________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
 📁 Database Schema
 
 
 CREATE TABLE products (
+
     id INT AUTO_INCREMENT PRIMARY KEY,
+    
     name VARCHAR(255) NOT NULL,
+    
     price DECIMAL(10,2) NOT NULL,
+    
     description TEXT,
+    
     image_url VARCHAR(255),
+    
     category VARCHAR(100)
+    
 );
 ______________________________________________________________________________________________________________________________________________________________________________________________________________________________
 Prerequisites
@@ -91,18 +90,30 @@ Git (optional)
 _____________________________________________________________________________________________________________________________________________________________________________________________________________________________
 Installation Steps
 
+
 Clone Repository
 
 bash
 git clone https://github.com/your-username/liaa-shoppingwebsite.git
+
+
+
 Setup XAMPP
 
 Start Apache and MySQL services
+
 Navigate to http://localhost/phpmyadmin
+
 Create database shopping_db
+
 Import Database
+
 Execute the provided SQL schema
+
 Insert sample product data
+
 Run Application
+
 Place project in htdocs folder
+
 Access via http://localhost/liaa-shoppingwebsite/
